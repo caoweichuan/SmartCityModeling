@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="gb2312"?>
+<ParameterML version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+	<ParameterList>
+		<Parameter>
+			<ID>value_insidePressure</ID>
+			<valueName>insidePressure</valueName>
+			<valueUnit>Pa</valueUnit>
+			<value type="double">400000</value>
+			<description>the insidePressure  of the gas pipe</description>
+		</Parameter>
+		<Parameter>
+			<ID>value_outsidePressure</ID>
+			<valueName>outsidePressure</valueName>
+			<valueUnit>Pa</valueUnit>
+			<value type="double">101325</value>
+			<description> local barometric Pressure </description>
+		</Parameter>
+		<Parameter>
+			<ID>value_temperature</ID>
+			<valueName>temperature</valueName>
+			<valueType>double</valueType>
+			<valueUnit>K</valueUnit>
+			<value type="double">300</value>
+			<description>air temperature</description>
+		</Parameter>
+		<Parameter>
+			<ID>value_leakDiameter</ID>
+			<valueName>leakDiameter</valueName>
+			<valueUnit>m</valueUnit>
+			<value type="double">0.04</value>
+			<description>Diameter of the leak hole of gas</description>
+		</Parameter>
+		<Parameter>
+			<ID>value_leakTime</ID>
+			<valueName>leakTime</valueName>
+			<valueUnit>s</valueUnit>
+			<value type="double">1200</value>
+			<description>time of diffusion</description>
+		</Parameter>
+		<Parameter>
+			<ID>value_height</ID>
+			<valueName>height</valueName>
+			<valueUnit>m</valueUnit>
+			<value type="double">2</value>
+			<description>Relative  height to the ground</description>
+		</Parameter>
+		<Parameter>
+			<ID>value_windSpeed</ID>
+			<valueName>windSpeed</valueName>
+			<valueUnit>m/s</valueUnit>
+			<value type="double">4</value>
+			<description>local wind speed</description>
+		</Parameter>
+		<Parameter>
+			<ID>value_windDirection</ID>
+			<valueName>windDirection</valueName>
+			<valueUnit>degree</valueUnit>
+			<value type="double">60</value>
+			<description>local wind direction</description>
+		</Parameter>
+		<Parameter>
+			<ID>value_leakPointLon</ID>
+			<valueName>leakPointLont</valueName>
+			<valueUnit>degree</valueUnit>
+			<value type="double">120</value>
+			<description>longitude of the leak point</description>
+		</Parameter>
+		<Parameter>
+			<ID>value_leakPointLat</ID>
+			<valueName>leakPointLat</valueName>
+			<valueUnit>degree</valueUnit>
+			<value type="double">30</value>
+			<description>latitude of the leak point</description>
+		</Parameter>
+	</ParameterList>
+</ParameterML>
